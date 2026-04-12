@@ -1,4 +1,4 @@
-# 📊 SQL Data Warehouse Project
+#  SQL Data Warehouse Project
 
 This project focuses on building a comprehensive data warehouse using **Oracle Database**. It covers the entire data lifecycle, including **ETL processes**, **Data Modeling**, and **Business Analytics**.
 
