@@ -1,39 +1,49 @@
-#  SQL Data Warehouse Project
+# SQL Data Warehouse Project
 
-This project focuses on building a comprehensive data warehouse using **Oracle Database**. It covers the entire data lifecycle, including **ETL processes**, **Data Modeling**, and **Business Analytics**.
+This project focuses on building a comprehensive data warehouse using **SQL Server (T-SQL)**. It covers the entire data lifecycle, including **ETL processes**, **Data Modeling**, and **Business Analytics** using modern engineering standards.
 
 ---
 
-##  Data Architecture
+## 🏗️ Data Architecture
 
-The project follows the **Medallion Architecture**, which organizes data into three distinct layers to ensure quality and reliability.
+The project follows the **Medallion Architecture**, which organizes data into three distinct layers to ensure quality, reliability, and performance.
 
-###  Bronze Layer (Raw Data)
+### 🥉 Bronze Layer (Raw Data)
 * **Goal:** Acts as a landing zone for data in its original form.
 * **Process:** Raw data is ingested directly from CSV files into SQL Server without modification.
 * **Integrity:** Preserves the "source of truth" for future reprocessing.
 
-###  Silver Layer (Cleaned Data)
+### 🥈 Silver Layer (Cleaned Data)
 * **Goal:** Provides a refined, consistent view of the data.
-* **Process:** * Cleans and transforms raw data to handle missing values.
+* **Process:** * Cleans and transforms raw data to handle missing values and nulls.
     * Resolves data inconsistencies and formatting issues.
     * Implements standardization and normalization for better performance.
 
-###  Gold Layer (Business Layer)
+### 🥇 Gold Layer (Business Layer)
 * **Goal:** Powers reporting and high-level decision-making.
 * **Structure:** Implements a **Star Schema** consisting of Fact and Dimension tables.
 * **Optimization:** Designed specifically for fast analytical queries and BI dashboarding.
 
 ---
 
-##  Project Objectives
+## 📊 Visualizations & Schemas
 
-###  Data Warehouse Engineering
-* **Integration:** Seamlessly combine **ERP** and **CRM** datasets into one environment.
+### 1. Medallion Pipeline Flow
+![Architecture Diagram](INSERT_LINK_TO_YOUR_ARCHITECTURE_IMAGE_HERE)
+
+### 2. Star Schema (ERD)
+![ERD Diagram](INSERT_LINK_TO_YOUR_ERD_IMAGE_HERE)
+
+---
+
+## 🎯 Project Objectives
+
+### Data Warehouse Engineering
+* **Integration:** Seamlessly combine **ERP** and **CRM** datasets into a unified SQL environment.
 * **Transformation:** Apply complex business logic during the ETL phase to clean raw data.
-* **Modeling:** Establish a unified analytical model that serves as the foundation for the warehouse.
+* **Modeling:** Establish a robust analytical model (Star Schema) that serves as the foundation for the warehouse.
 
-###  Analytics & Data Analysis
+### Analytics & Data Analysis
 The final layer generates insights regarding:
 * **Customer Behavior:** Tracking engagement and purchasing patterns.
 * **Product Performance:** Identifying top-selling items and inventory efficiency.
@@ -41,9 +51,9 @@ The final layer generates insights regarding:
 
 ---
 
-##  Project Overview
+## 🚀 Project Overview
 
 1. **Architecture Design:** Modern Data Warehouse implementation using the Medallion framework.
-2. **ETL Pipelines:** Robust Extract, Transform, and Load workflows.
+2. **ETL Pipelines:** Robust Extract, Transform, and Load workflows built with T-SQL.
 3. **Data Modeling:** Creation of Fact and Dimension tables for optimized storage and retrieval.
 4. **Analytics:** SQL-based reporting to provide actionable business insights.
