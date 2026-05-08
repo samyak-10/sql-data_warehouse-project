@@ -29,7 +29,7 @@ The project follows the **Medallion Architecture**, which organizes data into th
 ## 📊 Visualizations & Schemas
 
 ### 1. Medallion Pipeline Flow
-![Architecture Diagram](INSERT_LINK_TO_YOUR_ARCHITECTURE_IMAGE_HERE)
+![Architecture Diagram](docs/DWH_ARCHITECHURE .jpg)
 
 ### 2. Star Schema (ERD)
 ![ERD Diagram](INSERT_LINK_TO_YOUR_ERD_IMAGE_HERE)
