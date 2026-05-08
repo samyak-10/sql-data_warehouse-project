@@ -4,29 +4,29 @@ This project focuses on building a comprehensive data warehouse using **SQL Serv
 
 ---
 
-## 🏗️ Data Architecture
+##  Data Architecture
 
 The project follows the **Medallion Architecture**, which organizes data into three distinct layers to ensure quality, reliability, and performance.
 
-### 🥉 Bronze Layer (Raw Data)
+###  Bronze Layer (Raw Data)
 * **Goal:** Acts as a landing zone for data in its original form.
 * **Process:** Raw data is ingested directly from CSV files into SQL Server without modification.
 * **Integrity:** Preserves the "source of truth" for future reprocessing.
 
-### 🥈 Silver Layer (Cleaned Data)
+###  Silver Layer (Cleaned Data)
 * **Goal:** Provides a refined, consistent view of the data.
 * **Process:** * Cleans and transforms raw data to handle missing values and nulls.
     * Resolves data inconsistencies and formatting issues.
     * Implements standardization and normalization for better performance.
 
-### 🥇 Gold Layer (Business Layer)
+###  Gold Layer (Business Layer)
 * **Goal:** Powers reporting and high-level decision-making.
 * **Structure:** Implements a **Star Schema** consisting of Fact and Dimension tables.
 * **Optimization:** Designed specifically for fast analytical queries and BI dashboarding.
 
 ---
 
-## 📊 Visualizations & Schemas
+##  Visualizations & Schemas
 
 ### 1. Medallion Pipeline Flow
 ![Architecture Diagram](https://github.com/samyak-10/sql-data_warehouse-project/blob/main/docs/DWH_ARCHITECHURE%20.jpg?raw=true)
@@ -36,7 +36,7 @@ The project follows the **Medallion Architecture**, which organizes data into th
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 ### Data Warehouse Engineering
 * **Integration:** Seamlessly combine **ERP** and **CRM** datasets into a unified SQL environment.
@@ -51,7 +51,7 @@ The final layer generates insights regarding:
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 1. **Architecture Design:** Modern Data Warehouse implementation using the Medallion framework.
 2. **ETL Pipelines:** Robust Extract, Transform, and Load workflows built with T-SQL.
