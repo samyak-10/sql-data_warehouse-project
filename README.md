@@ -29,10 +29,10 @@ The project follows the **Medallion Architecture**, which organizes data into th
 ## 📊 Visualizations & Schemas
 
 ### 1. Medallion Pipeline Flow
-![Architecture Diagram]([docs/DWH_ARCHITECHURE .jpg](https://github.com/samyak-10/sql-data_warehouse-project/blob/bd1054141ac71fff090dbdc564c9f9893f38cae0/docs/DWH_ARCHITECHURE%20.jpg)
+![Architecture Diagram](https://github.com/samyak-10/sql-data_warehouse-project/blob/main/docs/DWH_ARCHITECHURE%20.jpg?raw=true)
 
 ### 2. Star Schema (ERD)
-![ERD Diagram](https://github.com/samyak-10/sql-data_warehouse-project/blob/bd1054141ac71fff090dbdc564c9f9893f38cae0/docs/DWH_STAR_SCHEMA.drawio.png)
+![ERD Diagram](https://github.com/samyak-10/sql-data_warehouse-project/blob/main/docs/DWH_STAR_SCHEMA.drawio.png?raw=true)
 
 ---
 
